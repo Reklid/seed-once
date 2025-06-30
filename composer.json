@@ -1,0 +1,28 @@
+{
+  "name": "reklid/seeders-like-migrations",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "reklid",
+      "email": "reklid.lok@gmail.com",
+      "homepage": "https://github.com/Reklid"
+    }
+  ],
+  "require": {
+    "php": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Reklid\\SeedOnce\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Reklid\\SeedOnce\\Providers\\SeedOnceServiceProvider"
+      ]
+    }
+  }
+}
